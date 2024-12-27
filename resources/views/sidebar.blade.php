@@ -32,18 +32,13 @@
             <div class="text-gray-100 text-xl">
                 <div class="p-2.5 mt-1 flex items-center">
                     <i class="bi bi-app-indicator px-2 py-1 bg-blue-600 rounded-md"></i>
-                    <h1 class="font-bold text-gray-200 text-[15px] ml-3">Tailwindbar</h1>
+                    <h1 class="font-bold text-gray-200 text-[22px] ml-3">Rework C/A</h1>
                     <i class="bi bi-x ml-20 cursor-pointer lg:hidden" onclick="Open()"></i>
                 </div>
                 <hr class="my-2 text-gray-600">
             </div>
 
-            <div
-                class="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer bg-gray-700 text-white">
-                <i class="bi bi-search text-sm"></i>
-                <input type="text" class="text-[15px] ml-4 w-full bg-transparent focus:outline-none"
-                    placeholder="Search">
-            </div>
+
             <a href="{{ route('page1') }}" id="home"
                 class="menu-item p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-blue-600 text-white text-[20px]">
 
@@ -51,34 +46,13 @@
                 Home
 
             </a>
-            <div
-                class="menu-item p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-blue-600 text-white">
-                <i class="bi bi-bookmark-fill"></i>
-                <span class="text-[15px] ml-4 text-gray-200">Bookmark</span>
-            </div>
-            <hr class="my-4 text-gray-600">
-            <div class="menu-item p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-blue-600 text-white"
-                onclick="dropdown()">
-                <i class="bi bi-chat-left-text-fill"></i>
-                <div class="flex justify-between w-full items-center">
-                    <span class="text-[15px] ml-4 text-gray-200">Chatbox</span>
-                    <span class="text-sm rotate-180" id="arrow">
-                        <i class="bi bi-chevron-down"></i>
-                    </span>
-                </div>
-            </div>
+            <a href="{{ route('page2') }}" id="bookmark"
+                class="menu-item p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-blue-600 text-white text-[20px]">
+                <i class="bi bi-bookmark-fill mr-4"></i>
+                Bookmark
+            </a>
 
-            <div class="text-left text-sm font-thin mt-2 w-4/5 mx-auto text-gray-200 hidden" id="submenu">
-                <h1 class="cursor-pointer p-2 hover:bg-gray-500 rounded-md mt-1">Social</h1>
-                <h1 class="cursor-pointer p-2 hover:bg-gray-500 rounded-md mt-1">Personal</h1>
-                <h1 class="cursor-pointer p-2 hover:bg-gray-500 rounded-md mt-1">Friends</h1>
-            </div>
 
-            <div
-                class="menu-item p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-blue-600 text-white">
-                <i class="bi bi-box-arrow-in-right"></i>
-                <span class="text-[15px] ml-4 text-gray-200">Log out</span>
-            </div>
         </div>
 
         <!-- Main Content -->
@@ -89,11 +63,6 @@
     @stack('script')
 
     <script type="text/javascript">
-        function dropdown() {
-            document.querySelector('#submenu').classList.toggle('hidden');
-            document.querySelector('#arrow').classList.toggle('rotate-0');
-        }
-
         function Open() {
             const sidebar = document.querySelector('.sidebar');
             const mainContent = document.querySelector('.flex-1');

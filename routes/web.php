@@ -53,3 +53,7 @@ Route::get('/factshopee', function () {
 Route::get('/sidebar2', function () {
     return view('sidebar2');
 });
+
+Route::get('/page2', function () {
+    return view('page2');
+})->name('page2');

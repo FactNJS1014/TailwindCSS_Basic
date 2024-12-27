@@ -21,8 +21,8 @@
                 <p class="text-2xl text-white">Control z Food Pos</p </div>
             </div>
             <div class="flex items-center justify-center w-full h-20">
-                <img class="object-fill rounded-full w-28 h-28" src="{{ asset('public/images/Profile.png') }}"
-                    alt="">
+                <img class="object-fill rounded-full w-28 h-28"
+                    src="{{ asset('public/images/Kamen rider/Profile.png') }}" alt="">
             </div>
             <div class="flex items-center justify-center mt-10 text-xl">
                 <p class="text-white">Hello Factory</p>
@@ -62,7 +62,7 @@
                 {{-- 1 --}}
                 <div class="flex items-center justify-between space-x-4">
                     <div class="bg-gray-100 flex items-center justify-center rounded-full w-full">
-                        <input type="text" class="text-black bg-gray-100 rounded-l-full px-4"
+                        <input type="text" class="text-black bg-gray-100 rounded-l-full px-4 focus:outline-none"
                             placeholder="Search For Dinner" id="search-dinner">
                         <div class="p-2">
                             <button class="flex items-center justify-center bg-red-500 rounded-full p-2 h-8 w-9">
@@ -72,7 +72,7 @@
 
                     </div>
                     <div class="bg-gray-100 flex items-center justify-center rounded-full w-full">
-                        <input type="text" class="text-black bg-gray-100 rounded-l-full px-4"
+                        <input type="text" class="text-black bg-gray-100 rounded-l-full px-4 focus:outline-none"
                             placeholder="Search Restaurant" id="search-dinner">
                         <div class="p-2">
                             <button class="flex items-center justify-center bg-green-500 rounded-full p-2 h-8 w-9">
@@ -137,46 +137,7 @@
 
             <div class="grid grid-cols-6 mt-5 gap-10">
                 <div class="flex flex-col bg-zinc-800 rounded-lg overflow-hidden w-44 h-56">
-                    <img src="{{ asset('public/images/pizza.jpg') }}" alt="" class="w-full h-32 object-cover">
-                    <div class="flex items-center justify-content justify-between p-4">
-                        <div>
-                            <h3 class="text-white">Pizza & Pasta</h3>
-                            <p class="mt-2 text-sm text-gray-400">5 Items</p>
-                        </div>
-                        <div>
-                            <i
-                                class="fa-solid fa-circle-plus text-orange-400 hover:text-white cursor-pointer text-xl"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex flex-col bg-zinc-800 rounded-lg overflow-hidden w-44 h-56">
-                    <img src="{{ asset('public/images/pizza.jpg') }}" alt="" class="w-full h-32 object-cover">
-                    <div class="flex items-center justify-content justify-between p-4">
-                        <div>
-                            <h3 class="text-white">Pizza & Pasta</h3>
-                            <p class="mt-2 text-sm text-gray-400">5 Items</p>
-                        </div>
-                        <div>
-                            <i
-                                class="fa-solid fa-circle-plus text-orange-400 hover:text-white cursor-pointer text-xl"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex flex-col bg-zinc-800 rounded-lg overflow-hidden w-44 h-56">
-                    <img src="{{ asset('public/images/pizza.jpg') }}" alt="" class="w-full h-32 object-cover">
-                    <div class="flex items-center justify-content justify-between p-4">
-                        <div>
-                            <h3 class="text-white">Pizza & Pasta</h3>
-                            <p class="mt-2 text-sm text-gray-400">5 Items</p>
-                        </div>
-                        <div>
-                            <i
-                                class="fa-solid fa-circle-plus text-orange-400 hover:text-white cursor-pointer text-xl"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex flex-col bg-zinc-800 rounded-lg overflow-hidden w-44 h-56">
-                    <img src="{{ asset('public/images/pizza.jpg') }}" alt=""
+                    <img src="{{ asset('public/images/PicturesGN/pizza.jpg') }}" alt=""
                         class="w-full h-32 object-cover">
                     <div class="flex items-center justify-content justify-between p-4">
                         <div>
@@ -190,7 +151,7 @@
                     </div>
                 </div>
                 <div class="flex flex-col bg-zinc-800 rounded-lg overflow-hidden w-44 h-56">
-                    <img src="{{ asset('public/images/pizza.jpg') }}" alt=""
+                    <img src="{{ asset('public/images/PicturesGN/pizza.jpg') }}" alt=""
                         class="w-full h-32 object-cover">
                     <div class="flex items-center justify-content justify-between p-4">
                         <div>
@@ -204,7 +165,49 @@
                     </div>
                 </div>
                 <div class="flex flex-col bg-zinc-800 rounded-lg overflow-hidden w-44 h-56">
-                    <img src="{{ asset('public/images/pizza.jpg') }}" alt=""
+                    <img src="{{ asset('public/images/PicturesGN/pizza.jpg') }}" alt=""
+                        class="w-full h-32 object-cover">
+                    <div class="flex items-center justify-content justify-between p-4">
+                        <div>
+                            <h3 class="text-white">Pizza & Pasta</h3>
+                            <p class="mt-2 text-sm text-gray-400">5 Items</p>
+                        </div>
+                        <div>
+                            <i
+                                class="fa-solid fa-circle-plus text-orange-400 hover:text-white cursor-pointer text-xl"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col bg-zinc-800 rounded-lg overflow-hidden w-44 h-56">
+                    <img src="{{ asset('public/images/PicturesGN/pizza.jpg') }}" alt=""
+                        class="w-full h-32 object-cover">
+                    <div class="flex items-center justify-content justify-between p-4">
+                        <div>
+                            <h3 class="text-white">Pizza & Pasta</h3>
+                            <p class="mt-2 text-sm text-gray-400">5 Items</p>
+                        </div>
+                        <div>
+                            <i
+                                class="fa-solid fa-circle-plus text-orange-400 hover:text-white cursor-pointer text-xl"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col bg-zinc-800 rounded-lg overflow-hidden w-44 h-56">
+                    <img src="{{ asset('public/images/PicturesGN/pizza.jpg') }}" alt=""
+                        class="w-full h-32 object-cover">
+                    <div class="flex items-center justify-content justify-between p-4">
+                        <div>
+                            <h3 class="text-white">Pizza & Pasta</h3>
+                            <p class="mt-2 text-sm text-gray-400">5 Items</p>
+                        </div>
+                        <div>
+                            <i
+                                class="fa-solid fa-circle-plus text-orange-400 hover:text-white cursor-pointer text-xl"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col bg-zinc-800 rounded-lg overflow-hidden w-44 h-56">
+                    <img src="{{ asset('public/images/PicturesGN/pizza.jpg') }}" alt=""
                         class="w-full h-32 object-cover">
                     <div class="flex items-center justify-content justify-between p-4">
                         <div>
@@ -230,7 +233,7 @@
 
             <div class="grid grid-cols-6 mt-5 gap-10">
                 <div class="bg-zinc-800 rounded-lg h-56 shadow hover:scale-105 transition duration-300 ease-in-out">
-                    <img src="{{ asset('public/images/pizza.jpg') }}" alt=""
+                    <img src="{{ asset('public/images/PicturesGN/pizza.jpg') }}" alt=""
                         class="w-full h-32 object-cover">
                     <div class="flex items-center justify-content justify-between">
                         <div>
@@ -250,7 +253,7 @@
                     </div>
                 </div>
                 <div class="bg-zinc-800 rounded-lg h-56 shadow hover:scale-105 transition duration-300 ease-in-out">
-                    <img src="{{ asset('public/images/pizza.jpg') }}" alt=""
+                    <img src="{{ asset('public/images/PicturesGN/pizza.jpg') }}" alt=""
                         class="w-full h-32 object-cover">
                     <div class="flex items-center justify-content justify-between">
                         <div>
@@ -270,7 +273,7 @@
                     </div>
                 </div>
                 <div class="bg-zinc-800 rounded-lg h-56 shadow hover:scale-105 transition duration-300 ease-in-out">
-                    <img src="{{ asset('public/images/pizza.jpg') }}" alt=""
+                    <img src="{{ asset('public/images/PicturesGN/pizza.jpg') }}" alt=""
                         class="w-full h-32 object-cover">
                     <div class="flex items-center justify-content justify-between">
                         <div>
@@ -290,7 +293,7 @@
                     </div>
                 </div>
                 <div class="bg-zinc-800 rounded-lg h-56 shadow hover:scale-105 transition duration-300 ease-in-out">
-                    <img src="{{ asset('public/images/pizza.jpg') }}" alt=""
+                    <img src="{{ asset('public/images/PicturesGN/pizza.jpg') }}" alt=""
                         class="w-full h-32 object-cover">
                     <div class="flex items-center justify-content justify-between">
                         <div>
@@ -310,7 +313,7 @@
                     </div>
                 </div>
                 <div class="bg-zinc-800 rounded-lg h-56 shadow hover:scale-105 transition duration-300 ease-in-out">
-                    <img src="{{ asset('public/images/pizza.jpg') }}" alt=""
+                    <img src="{{ asset('public/images/PicturesGN/pizza.jpg') }}" alt=""
                         class="w-full h-32 object-cover">
                     <div class="flex items-center justify-content justify-between">
                         <div>
@@ -330,7 +333,7 @@
                     </div>
                 </div>
                 <div class="bg-zinc-800 rounded-lg h-56 shadow hover:scale-105 transition duration-300 ease-in-out">
-                    <img src="{{ asset('public/images/pizza.jpg') }}" alt=""
+                    <img src="{{ asset('public/images/PicturesGN/pizza.jpg') }}" alt=""
                         class="w-full h-32 object-cover">
                     <div class="flex items-center justify-content justify-between">
                         <div>
@@ -358,7 +361,7 @@
             <div class="grid grid-cols-2 gap-4">
                 <div class="flex bg-black rounded-lg p-2">
                     <img class="w-1/3 h-32 object-cover rounded mr-4"
-                        src="{{ asset('public/images/restaurant1.jpg') }}" alt="">
+                        src="{{ asset('public/images/PicturesGN/restaurant1.jpg') }}" alt="">
 
                     <div class="flex items-center justify-between">
                         <div class="text-white">
@@ -374,7 +377,7 @@
                 </div>
                 <div class="flex bg-black rounded-lg p-2">
                     <img class="w-1/3 h-32 object-cover rounded mr-4"
-                        src="{{ asset('public/images/restaurant1.jpg') }}" alt="">
+                        src="{{ asset('public/images/PicturesGN/restaurant1.jpg') }}" alt="">
 
                     <div class="flex items-center justify-between">
                         <div class="text-white">
@@ -418,8 +421,8 @@
             <span class="flex items-center justify-between mt-4 text-white">List Orders Detail</span>
             <div class="mt-6">
                 <div class="flex items-center justify-between bg-white rounded-lg p-2 w-full">
-                    <img class="w-12 h-12 object rounded mr-4" src="{{ asset('public/images/drinks1.jpg') }}"
-                        alt="">
+                    <img class="w-12 h-12 object rounded mr-4"
+                        src="{{ asset('public/images/PicturesGN/drinks1.jpg') }}" alt="">
 
                     <div>
                         <p class="text-black font-semibold">Soda Juice</p>
