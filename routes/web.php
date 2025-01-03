@@ -57,3 +57,7 @@ Route::get('/sidebar2', function () {
 Route::get('/page2', function () {
     return view('page2');
 })->name('page2');
+
+Route::get('/navbar', function () {
+    return view('navbar');
+});

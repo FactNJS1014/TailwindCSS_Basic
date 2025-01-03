@@ -1,0 +1,19 @@
+{
+    "sqltools.connections": [
+        {
+            "mssqlOptions": {
+                "appName": "SQLTools",
+                "useUTC": true,
+                "encrypt": true
+            },
+            "previewLimit": 50,
+            "server": "172.22.64.11",
+            "port": 1433,
+            "driver": "MSSQL",
+            "name": "DB:LC_LM",
+            "username": "sa",
+            "database": "LC_LM",
+            "password": ""
+        }
+    ]
+}
