@@ -60,7 +60,7 @@
             </p>
 
         </div>
-        <div class="flex bg-white p-6 mx-auto w-[92%] gap-5 justify-center items-center rounded-md">
+        <div class="flex bg-white p-6 mx-auto w-[90%] gap-5 justify-center items-center rounded-md">
             <img src="{{ asset('public/images/PicturesGN/python.png') }}" alt="" class="w-20">
             <img src="{{ asset('public/images/PicturesGN/html.png') }}" alt="" class="w-20">
             <img src="{{ asset('public/images/PicturesGN/css3.svg') }}" alt="" class="w-[90px]">
@@ -68,7 +68,12 @@
 
         </div>
 
-        <p class="text-black">Hello</p>
+        <div
+            class="p-6 bg-gradient-to-r from-blue-500 via-blue-300 to-cyan-300 border-4 border-yellow-500 flex justify-center items-center mt-5 mx-auto w-[90%] rounded-xl">
+            <p class="text-[35px] font-bold uppercase text-cyan-900">By Mr.Factory</p>
+
+
+        </div>
     </main>
 </body>
 
