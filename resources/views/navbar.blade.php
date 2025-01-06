@@ -17,7 +17,7 @@
         rel="stylesheet">
 </head>
 
-<body class="font-[Poppins] bg-gradient-to-t from-[#fbc2eb] to-[#a6c1ee] h-screen">
+<body class="font-[Poppins] bg-gradient-to-t from-[#fbc2eb] to-[#a6c1ee] h-full">
     <header class="bg-white p-6">
         <nav class="flex justify-between items-center w-[92%]  mx-auto">
             {{-- <div>
@@ -73,6 +73,17 @@
             <p class="text-[35px] font-bold uppercase text-cyan-900">By Mr.Factory</p>
 
 
+        </div>
+        <div class="flex-1 justify-center items-center gap-3">
+            <div class="grid grid-cols-3">
+                <div class="flex flex-col">
+                    <div class="p-6 mx-auto bg-white">
+                        <img class="w-1/3" src="{{ asset('public/images/PicturesGN/codehtml.png') }}" alt="">
+
+
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
 </body>
