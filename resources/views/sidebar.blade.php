@@ -27,7 +27,7 @@
     <div class="flex">
         <!-- Sidebar -->
         <div
-            class="sidebar fixed top-0 bottom-0 lg:left-0 left-[-300px] p-2 lg:w-[300px] overflow-y-auto text-center bg-gray-900 transition-all duration-300">
+            class="sidebar fixed top-0 bottom-0 lg:left-0 left-[-300px]  lg:w-[300px] overflow-y-auto text-center bg-gray-900 transition-all duration-300">
 
             <div class="text-gray-100 text-xl">
                 <div class="p-2.5 mt-1 flex items-center">
